@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Login"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Login for test."
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "LoginModule/LoginModule/LoginModule/Login/**/*.swift"
+  spec.source_files  = "LoginModule/LoginModule/Login/**/*.swift"
 #   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
