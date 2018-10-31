@@ -10,13 +10,12 @@ import UIKit
 
 @objc class Target_Login: NSObject {
     
-    @objc func Action_LoginViewController(pargms: [String: Any]) -> UIViewController {
+    @objc func Action_LoginViewController(_ pargms: [String: Any]) -> UIViewController {
         if let callback = pargms["callback"] as? (String) -> Void {
             callback("success")
         }
         let viewController = LoginViewController()
         return viewController
     }
-    
     
 }
