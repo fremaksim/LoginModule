@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = "Login"
   spec.version      = "0.0.4"
   spec.summary      = "Login for test."
-
+  spec.swift_version = '>= 4.0'
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
