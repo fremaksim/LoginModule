@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc class Login_Target: NSObject {
+@objc class Target_Login: NSObject {
     
     @objc func Action_LoginViewController(pargms: [String: Any]) -> UIViewController {
         if let callback = pargms["callback"] as? (String) -> Void {
